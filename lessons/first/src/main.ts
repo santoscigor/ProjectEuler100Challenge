@@ -1,3 +1,8 @@
+/**
+ * @description First challenge: should find the sum of all the multiples of 3 or 5 given a number
+ * @param number The number to find the multiples
+ */
+
 function multiplesOf3and5(number) {
     let counter = [];
     for(let i = 0; i < number; i++ ){
@@ -10,7 +15,4 @@ function multiplesOf3and5(number) {
     return counter.reduce((sum, number) => {
       return sum + number;
     })
-  }
-  
-  console.log(multiplesOf3and5(1000));
-  multiplesOf3and5(1000);
+}
